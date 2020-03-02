@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+  background-color: #FFFFFF;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+
+nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none; 
+  float: left;
+  text-align: center;
+  
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+footer{
+  background-color: black;
+  color: white;
+  grid-column: 1 / -1;  /*Can you explain what this does?*/
+  grid-row: 7 / auto;   /*Can you rewrite it?*/
+  padding-top: 30px;
+  text-align: center;
+}
+header{
+  
+    background-attachment: fixed; /* Parallax effect */     
+    background-position: center;  /* Parallax effect */
+    background-repeat: no-repeat; /* Parallax effect */
+    background-size: cover;       /* Parallax effect */
+    color: white;
+    height: 400px;                /* Parallax effect */
+
+    background-image: url("../images/headerbackground.jpg");
+/*  the grid code is later... will this work if I do the grid-template-rows?
+  is grid template rows the one I do? Do I have to make a container?*/
+    grid-column: 2 / -1;
+}
+
+.container{
+  display: grid;
+  grid-row-gap: 15px;
+  position: absolute;
+/*  how do i put in the 100px 400 px and 100px*/
+  grid-template-columns: 100px auto auto;
+
+/*  how do i do the 30px 5x auto and 100 pix*/
+  grid-template-rows: 30px auto auto auto auto auto 100px;
+  /*Your code here  */
+  /* See documentation for mobile view */
+
+}
+
+  /* Your code here */
+  /* Set background-image to header.jpg in the images folder */
+  /* Span one row */
