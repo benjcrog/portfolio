@@ -7,7 +7,16 @@
     <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400&display=swap" rel="stylesheet">    <title>Ben Rogers Portfolio</title>
+     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400&display=swap" rel="stylesheet">  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159945113-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159945113-1');
+      </script>     
+       <title>Ben Rogers Portfolio</title>
   </head>
   <body>
 
@@ -17,17 +26,15 @@
     <header>
       <div class ="logo">
         <a href ="index.html">
-      <img src="images/logo.png" alt="logo" id="logo"/>
-    </a>
-    </div>
-      <div class="header_content">
-        <div class="topwords">
-      
-          <h1>CREATION.<br/>INNOVATION.<br/>TECHNOLOGY.</h1> 
-        </div>
-        <div class="bottomwords">
+        <img src="images/logo.png" alt="logo" id="logo"/>
+        </a>
+      </div>
+
+      <div class = "header_text">
+          <h1>CREATION.<br/>INNOVATION.<br/>TECHNOLOGY.</h1> <br/>
           <h2>The Bridge Between Users and Tech:<br/>A Sociotechnical Collaborator For Your Customers; For Your Business.</h2>
-        </div>
+      </div>
+
       <div class ="navbar">
       <nav>
         <ul class ="nav_links">
@@ -37,22 +44,52 @@
           <li class = "nav_items"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-    </div>
-    </div>
-<!--       <div class="header_content">
-        <div class="topwords">
-      
-          <h1>CREATION.<br/>INNOVATION.<br/>TECHNOLOGY.</h1> 
-        </div>
-        <div class="bottomwords">
-        <h2>The Bridge Between Users and Tech:<br/>A Sociotechnical Collaborator For Your Customers; For Your Business.</h2>
-        </div>
-      </div>     -->  
+      </div>
+    </header>
 
-      </header>
+
+     
    <main class ="home" id="skip">
+
     
-      <div class="about">
+      
+<!-- <div class = "Ben_lines">
+<svg viewBox="0 0 800 600">
+  <symbol id="s-text">
+    <text text-anchor="middle"
+          x="50%"
+          y="35%"
+          class="text--line"
+          >
+      Elastic
+    </text>
+    <text text-anchor="middle"
+          x="50%"
+          y="68%"
+          class="text--line2"
+          >
+      Stroke
+    </text>
+    
+  </symbol>
+  
+  <g class="g-ants">
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+    <use xlink:href="#s-text"
+      class="text-copy"></use>     
+  </g>
+  
+  
+</svg>
+</div> -->
+<div class="about">
         <div class = "card">
         <img id = "headshot" src="images/headshot.jpg" alt="Ben's Picture"/>
           <button onclick="window.location.href = 'aboutme.html';">About Me </button>
@@ -74,8 +111,31 @@
   </main>
 
     <footer>
-      <p>University of Michigan School of Information <br/>
-        &copy; Colleen van Lent, Drew Asselin - Web Design 2019-2020</p>
+      <div class ="ftext">
+        <p>Ben Rogers Portfolio</p>
+        <p>University of Michigan</p>
+        <p>School of Information</p>
+      </div>
+      <div class ="fnav">
+        <ul class ="fnav">
+          <li class = "fnav_item"><a href="aboutme.html">About Me</a></li>
+          <li class = "fnav_item"><a href="projects.html">Projects</a></li>
+          <li class = "fnav_item"><a href="courses.html">Courses</a></li>
+          <li class = "fnav_item"><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+      <div class="fimages">
+        <a href ="https://www.linkedin.com/in/benjcrogers/">
+         <img src="images/footer/linkedin.png" alt="linkedIn" id="link_i" width = "50px" height = "50px"/>
+       </a>
+        <a href ="https://sites.google.com/view/benrogersportfolio/home">
+         <img src="images/footer/googlesites.png" alt="Google Sites Icon" id="googlesites" width = "50px" height = "50px"/>
+       </a>       
+      </div>
+
+      <!-- https://www.linkedin.com/in/benjcrogers/ -->
+
     </footer>
     </div>
     </html>
