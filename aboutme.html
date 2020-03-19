@@ -19,20 +19,21 @@
     <title>Ben Rogers Portfolio</title>
   </head>
   <body>
-
+  <!-- needs to be within a landmark -->
     <!-- havent change anything below this yet. -->
     <!-- the a href below was #main? -->
-        <div class="skip"><a href="#skip">Skip to Main Content</a></div>
-    <header>
+        <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header class = "head">
       <div class ="logo">
-        <a href ="index.html">
+        <a class = "logoimg" href ="index.html">
         <img src="images/logo.png" alt="logo" id="logo"/>
+        <p class= "img_description">Home</p>
         </a>
       </div>
 
       
       <div class = "header_text">
-          <h1>About Me</h1> <br/>
+          <h1>About Me</h1><br/>
           <h2>Enjoy looking through the personality behind the workhorse!<br/> I'm a dedicated professional that constantly works on balance.</h2>
     
          
@@ -41,7 +42,7 @@
       <div class ="navbar">
       <nav>
         <ul class ="nav_links">
-          <li class = "nav_items"><a href="aboutme.html">About Me</a></li>
+          <li class = "nav_items"><a class = "active" href="aboutme.html">About Me</a></li>
           <li class = "nav_items"><a href="projects.html">Projects</a></li>
           <li class = "nav_items"><a href="courses.html">Courses</a></li>
           <li class = "nav_items"><a href="contact.html">Contact</a></li>
@@ -52,7 +53,8 @@
 
 
 
-   <main class ="home" id="skip">
+   
+   <main id = "skip" class ="head">
     <div class ="gallery">
         <div class ="block">
           <div class = "row1">
@@ -69,12 +71,14 @@
           <div class="row3">
               <br></br>
               <img id = "img4" src="images/aboutme/panera.jpg" alt="Acceptance Letter"/>
-              <p><br>(I did not pay for this endorsement)</br></p>
-              <p><br></br></p>
+              <p><br>(I did not pay for this endorsement)</p></br>
+              <p><br></p>
             </div>
          </div>
         <div class="row4">
          <img id = "img5" src="images/aboutme/friends.jpg" alt="Friends"/>
+         
+
           <img id = "img6" src="images/aboutme/food.jpg" alt="food"/>
           <img id = "img7" src="images/aboutme/jump.jpg" alt="Water Jump"/>
         </div>
@@ -86,27 +90,108 @@
             <img id = "img11" src="images/aboutme/swim.jpg" alt="Swim"/>
           </div>
         </div>
+
+
+
+
         <div class="row6">
-          <img id = "img12" src="images/aboutme/bey.png" alt="Bey"/>
-          <img id = "img13" src="images/aboutme/tea.jpg" alt="Tea"/>
-          <img id = "img14" src="images/aboutme/jubi.jpg" alt="Jubi"/>
-          <img id = "img15" src="images/aboutme/kick.jpg" alt="Kick"/>
-          <img id = "img16" src="images/aboutme/gay.jpg" alt="Gay"/>
-          <img id = "img17" src="images/aboutme/bowie.jpg" alt="Bowie"/>
+          <h2>Additional Image Gallery</h2>
+
+          <div class = "gall">
+
+            <a target="_blank" href ="images/aboutme/bey.png">
+          <img id = "img12" src="images/aboutme/bey.png" alt="Bey" width ="600" height="400"/>
+          </a>
+          <div class = "desc"><p>Beyonce is what everyone should strive to be</p></div>
         </div>
-        <div class ="block">
-          <div class="row7">
-            <img id = "img18" src="images/aboutme/larp.jpg" alt="larp"/>
-            <img id = "img19" src="images/aboutme/mirror.jpg" alt="Mirror"/>
-            <img id = "img20" src="images/aboutme/knife.jpg" alt="Knife"/>
-            <img id = "img21" src="images/aboutme/coffee.jpg" alt="Coffee"/>
-          </div>
+
+            <div class = "gall">
+            <a target="_blank" href ="images/aboutme/tea.jpg">
+          <img id = "img13" src="images/aboutme/tea.jpg" alt="Tea" width ="600" height="400" />
+          </a>
+          <div class = "desc"><p>A good friend and I catering a party</p></div>
         </div>
+
+
+
+            <div class = "gall">
+            <a target="_blank" href ="images/aboutme/jubi.jpg">
+          <img id = "img14" src="images/aboutme/jubi.jpg" alt="Jubi Cat" width ="600" height="400" />
+          </a>
+          <div class = "desc"><p>My handsome cat dude</p></div>
+        </div>
+          
+            <div class = "gall">
+            <a target="_blank" href ="images/aboutme/kick.jpg">
+          <img id = "img15" src="images/aboutme/kick.jpg" alt=" Person Kicking"width ="600" height="400" />
+          </a>
+          <div class = "desc">Doing a big ol' kick.</div>
+        </div>
+
+            <div class = "gall">
+            <a target="_blank" href ="images/aboutme/gay.jpg">
+          <img id = "img16" src="images/aboutme/gay.jpg" alt="Gay Nuns at Pride" width ="600" height="400" />
+          </a>
+          <div class = "desc">Gay Nuns at Pride</div>
+        </div>
+          
+       
+                   <div class = "gall">
+            <a target="_blank" href ="images/aboutme/bowie.jpg">
+          <img id = "img17" src="images/aboutme/bowie.jpg" alt="David Bowie" width ="600" height="400" />
+          </a>
+          <div class = "desc">David Bowie Being A Space Man</div>
+        </div>
+
+                   <div class = "gall">
+            <a target="_blank" href ="images/aboutme/larp.jpg">
+          <img id = "img18" src="images/aboutme/larp.jpg" alt="Two Guys In Costumes" width ="600" height="400" />
+          </a>
+          <div class = "desc">My Ex and I at the renaissance fair.</div>
+        </div>
+   
+    <!-- (div for row ended) -->
+<!--         <div class ="block">
+          <div class="row7"> -->
+        
+                   <div class = "gall">
+            <a target="_blank" href ="images/aboutme/mirror.jpg">
+          <img id = "img19" src="images/aboutme/mirror.jpg" alt="Backstage looking at artists who have signed the wall."width ="600" height="400" />
+          </a>
+          <div class = "desc">Backstage looking at artists who have signed the wall.</div>
+        </div>
+
+                   <div class = "gall">
+            <a target="_blank" href ="images/aboutme/knife.jpg">
+          <img id = "img20" src="images/aboutme/knife.jpg" alt="Friends acting like tough fantasy men." width ="600" height="400" />
+          </a>
+          <div class = "desc">Friends acting like tough fantasy men</div>
+        </div>
+
+
+<!--                    <div class = "gall">
+            <a target="_blank" href ="images/aboutme/knife.jpg">
+          <img id = "img20" src="images/aboutme/knife.jpg" alt="Friends acting like tough fantasy men." width ="600" height="400" />
+          </a>
+          <div class = "desc">Friends acting like tough fantasy men</div> -->
+  
+
+            
+                   <div class = "gall">
+            <a target="_blank" href ="images/aboutme/coffee.jpg">
+          <img id = "img21" src="images/aboutme/coffee.jpg" alt="Coffee with a sassy mug and an old wind up beetlejuice doll." width ="600" height="400" />
+          </a>
+     <div class = "desc">Coffee with a sassy mug and an old wind up beetlejuice doll.</div>
+    </div>    
+  </div>
+<!--            
+          
+        </div> -->
       
 
       </div>
     
-
+</div>
 
    
     
@@ -148,7 +233,7 @@
       </div>
       <div class ="fnav">
         <ul class ="fnav">
-          <li class = "fnav_item"><a href="aboutme.html">About Me</a></li>
+          <li class = "fnav_item"><a class = "active" href="aboutme.html">About Me</a></li>
           <li class = "fnav_item"><a href="projects.html">Projects</a></li>
           <li class = "fnav_item"><a href="courses.html">Courses</a></li>
           <li class = "fnav_item"><a href="contact.html">Contact</a></li>
@@ -157,15 +242,15 @@
       </div>
       <div class="fimages">
         <a href ="https://www.linkedin.com/in/benjcrogers/">
-         <img src="images/footer/linkedin.png" alt="linkedIn" id="link_i" width = "50px" height = "50px"/>
+         <img src="images/footer/linkedin.png" alt="linkedIn" id="link_i" width = "50" height = "50"/>
        </a>
         <a href ="https://sites.google.com/view/benrogersportfolio/home">
-         <img src="images/footer/googlesites.png" alt="Google Sites Icon" id="googlesites" width = "50px" height = "50px"/>
+         <img src="images/footer/googlesites.png" alt="Google Sites Icon" id="googlesites" width = "50" height = "50"/>
        </a>          
       </div>
 
       <!-- https://www.linkedin.com/in/benjcrogers/ -->
 
     </footer>
-    </div>
+    </body>
     </html>

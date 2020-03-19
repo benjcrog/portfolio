@@ -8,25 +8,28 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=Barlow:300,400&display=swap" rel="stylesheet">  
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159945113-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159945113-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-159945113-1');
-      </script>     
+  gtag('config', 'UA-159945113-1');
+</script>
+
        <title>Ben Rogers Portfolio</title>
   </head>
   <body>
 
     <!-- havent change anything below this yet. -->
     <!-- the a href below was #main? -->
-    <div class="skip"><a href="#skip">Skip to Main Content</a></div>
-    <header>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header id ="head">
       <div class ="logo">
-        <a href ="index.html">
+        <a class = "logoimg" href ="index.html">
         <img src="images/logo.png" alt="logo" id="logo"/>
+        <p class= "img_description">Home</p>
         </a>
       </div>
 
@@ -49,46 +52,14 @@
 
 
      
-   <main class ="home" id="skip">
+   <main class ="head" id="skip">
 
     
       
-<!-- <div class = "Ben_lines">
-<svg viewBox="0 0 800 600">
-  <symbol id="s-text">
-    <text text-anchor="middle"
-          x="50%"
-          y="35%"
-          class="text--line"
-          >
-      Elastic
-    </text>
-    <text text-anchor="middle"
-          x="50%"
-          y="68%"
-          class="text--line2"
-          >
-      Stroke
-    </text>
-    
-  </symbol>
-  
-  <g class="g-ants">
-    <use xlink:href="#s-text"
-      class="text-copy"></use>     
-    <use xlink:href="#s-text"
-      class="text-copy"></use>     
-    <use xlink:href="#s-text"
-      class="text-copy"></use>     
-    <use xlink:href="#s-text"
-      class="text-copy"></use>     
-    <use xlink:href="#s-text"
-      class="text-copy"></use>     
-  </g>
-  
-  
-</svg>
-</div> -->
+
+
+<div class = "index_home">
+
 <div class="about">
         <div class = "card">
         <img id = "headshot" src="images/headshot.jpg" alt="Ben's Picture"/>
@@ -100,15 +71,16 @@
 
     <div class="resume">
       <div class="resume_card">
-          <button onclick="window.location.href ='https://drive.google.com/file/d/16eo8joYjjMGwZm9nLpT4FDFFtLw6w8_f/preview?authuser=0';">Resume </button>
           <a href="https://drive.google.com/file/d/16eo8joYjjMGwZm9nLpT4FDFFtLw6w8_f/preview?authuser=0">
-            <img id="resume_pic" src ="images/resume.png" alt="resume">
+            <img id="resume_pic" src ="images/resume.png" alt="resume"/>
           </a>
+          <button onclick="window.location.href ='https://drive.google.com/file/d/16eo8joYjjMGwZm9nLpT4FDFFtLw6w8_f/preview?authuser=0';">Resume </button>
           </div>
-    </div>  
+    </div> 
+</div>
 
-  
-  </main>
+
+</main>
 
     <footer>
       <div class ="ftext">
@@ -127,15 +99,18 @@
       </div>
       <div class="fimages">
         <a href ="https://www.linkedin.com/in/benjcrogers/">
-         <img src="images/footer/linkedin.png" alt="linkedIn" id="link_i" width = "50px" height = "50px"/>
+         <img src="images/footer/linkedin.png" alt="linkedIn" id="link_i" width = "5x" height = "50"/>
        </a>
         <a href ="https://sites.google.com/view/benrogersportfolio/home">
-         <img src="images/footer/googlesites.png" alt="Google Sites Icon" id="googlesites" width = "50px" height = "50px"/>
+         <img src="images/footer/googlesites.png" alt="Google Sites Icon" id="googlesites" width = "50" height = "50"/>
        </a>       
       </div>
 
       <!-- https://www.linkedin.com/in/benjcrogers/ -->
 
+    
     </footer>
-    </div>
+    <!-- </div> -->
+  
+</body>
     </html>
